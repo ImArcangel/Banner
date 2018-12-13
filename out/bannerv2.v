@@ -1,1 +1,1 @@
-/home/arcangel/L3/rtl/bannerv2.v
+/home/arcangel/Git_workspace/Banner/rtl/bannerv2.v

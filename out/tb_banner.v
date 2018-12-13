@@ -1,1 +1,1 @@
-/home/arcangel/L3/test/tb_banner.v
+/home/arcangel/Git_workspace/Banner/test/tb_banner.v

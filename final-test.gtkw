@@ -1,0 +1,38 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Thu Dec 13 00:29:11 2018
+[*]
+[dumpfile] "/home/arcangel/Git_workspace/Banner/dut.vcd"
+[dumpfile_mtime] "Thu Nov 22 03:41:06 2018"
+[dumpfile_size] 587632
+[savefile] "/home/arcangel/Git_workspace/Banner/final-test.gtkw"
+[timestart] 0
+[size] 1366 676
+[pos] -51 -51
+*-20.508982 45484000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_banner.
+[sst_width] 223
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 179
+@28
+tb_banner.dut.clk
+@200
+-Banner control
+@28
+[color] 3
+tb_banner.dut.tick_banner
+[color] 2
+tb_banner.dut.tick_display
+@200
+-Banner counter
+@28
+tb_banner.dut.off_display
+@23
+[color] 1
+tb_banner.dut.anodos[3:0]
+@22
+[color] 7
+tb_banner.dut.number2show[3:0]
+[pattern_trace] 1
+[pattern_trace] 0

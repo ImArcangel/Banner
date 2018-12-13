@@ -1,1 +1,1 @@
-/home/arcangel/L3/rtl/clk_div.v
+/home/arcangel/Git_workspace/Banner/rtl/clk_div.v

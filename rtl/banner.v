@@ -65,11 +65,11 @@ module banner #(
     always @(*) begin
     	shift = tick_banner;
     end
-    /*
+    
     //cada flanco positivo del banner, cambia de estado el banner.
     always @(posedge tick_banner) begin
     	state_b <= nextstate_b;
-    end*/
+    end
 
     //en cada estado del banner, nextstate_b apunta al siguiente estado del banner
     always @(*) begin
@@ -106,10 +106,10 @@ module banner #(
 
     end
 
-    /*//cada flanco positivo del display, se cambia de estado el display
+    //cada flanco positivo del display, se cambia de estado el display
     always @(posedge tick_display) begin
     	state_a <= nextstate_a;
-    end*/
+    end
 
     //en cada estado de anado, nexstate_a apunta al siguiente estado del anodo
     always @(*) begin
@@ -133,12 +133,7 @@ module banner #(
       
 		if(~rst) begin // Si no resetean
 
-			if(tick_banner)
-        state_b <= nextstate_b;
-      if(tick_display)
-        state_a <= nextstate_a;
-
-      case (state_b) 
+      		case (state_b) 
 
 				s0: case (state_a) 
 						default off_display <= 1;  
@@ -278,8 +273,6 @@ module banner #(
      	
      	end else begin
      		off_display <= 1;
-        state_b <= s0;
-        state_a <= a0;
       	end
 	 
     end // always @(posedge clk)
